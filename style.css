@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: sans-serif;
+}
+.hero{
+    position: relative;
+    background:aliceblue;
+
+}
+nav{
+    display:flex;
+    width:84%;
+    margin:auto;
+    padding:20px 0;
+    align-items:center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style:none;
+    margin:10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:black;
+    font-weight:bold;
+}
+nav ul li a:hover{
+    color:rgb(166, 163, 163);
+    
+}
+.container {
+    width:98%;
+    padding:50px 20px;
+    background-color:purple;
+    margin:auto;
+    transition:0.9s;
+}
+.box{
+    display: inline-block;
+    width:80%;
+    height: 320px;
+    margin-left: 5%;
+    margin-top:3%;
+    margin-right: 8%;
+    padding:20px 20px;
+    background-color:aliceblue;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: 0.5s;
+    justify-content: center;
+
+}
+.box:hover{
+    transform:scale(1.1);
+   
+}
+
+ img{
+    margin-left:50%; 
+    height: 300px;
+    width:250px;
+    position: absolute;
+    border-radius: 100%;
+    
+ }
+ .first-child img{
+    margin-left:5%; 
+    height: 100px;
+    width:80px;
+    position: absolute;
+    border-radius: 0%;
+}
+.secondchild img{
+    margin-left:15%; 
+    height: 100px;
+    width:80px;
+    position: absolute;
+    border-radius: 0%;
+
+}
+.thirdchild img{
+    margin-left:25%; 
+    height: 100px;
+    width:80px;
+    position: absolute;
+    border-radius:0%;
+
+}
+.proj img{
+    margin-left:5%; 
+    height: 280px;
+    width:500px;
+    position: absolute;
+    border-radius:0%;
+
+}
+
+
